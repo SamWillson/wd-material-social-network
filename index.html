@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Social Network</title>
+		<link rel="stylesheet" type="text/css" href="library/materialize/dist/css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="library/materialicons/materialicons.css">
+		<script type="text/javascript" src="library/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="library/materialize/dist/js/materialize.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+
+		<div id="navbar">
+			<div class="row">
+				<div class="col s1 col-navbar-brand-fix">
+					<div class="col-navbar-brand">
+						<i class="material-icons">pan_tool</i>
+					</div>
+				</div>
+				<div class="col s2 col-navbar-brand-name">
+					<span>PROFILE PAGE</span>
+				</div>
+				<div class="col s4 col-navbar-search">
+					<div class="search-bar">
+						<input placeholder="Search......" id="search" type="text">						
+					</div>
+				</div>
+				<div class="col s1 col-navbar-find-friends">
+					<a href="#">Find Friends</a>
+				</div>
+				<div class="col s2 col-navbar-icon-board">
+					<div class="row">
+						<div class="col s4">
+							<a href="#"><i class="material-icons">account_circle</i></a>
+						</div>
+						<div class="col s4">
+							<a href="#"><i class="material-icons">chat</i></a>
+						</div>
+						<div class="col s4">
+							<a href="#"><i class="material-icons">dns</i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col s2 col-navbar-profile">
+					<span class="image">
+						<img src="profile.jpg">
+					</span>
+					&nbsp;
+					<div class="profile">
+						<span class="name">Sampan Verma</span>
+						<span class="title">Generic Robot</span>
+					</div>
+					<!-- <div class="profile-dropdown-container">
+						<a href="#" class="profile-dropdown"><i class="material-icons right">arrow_drop_down</i></a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+
+		<div class="sidebar sidebar-left">
+			<div class="fixed">
+				<a href="#"><i class="material-icons">dashboard</i></a>
+				<a href="#"><i class="material-icons">explore</i></a>
+				<a href="#"><i class="material-icons">extension</i></a>
+				<a href="#"><i class="material-icons">note</i></a>
+				<a href="#"><i class="material-icons">event_note</i></a>
+				<a href="#"><i class="material-icons">cake</i></a>
+				<a href="#"><i class="material-icons">settings</i></a>
+			</div>
+		</div>
+		<div class="sidebar sidebar-right">
+			<div class="fixed">
+				<a href="#"><img src="profile.jpg"></a>
+				<a href="#"><img src="arsh.jpg"></a>
+				<a href="#"><img src="komal-kaur.jpg"></a>
+				<a href="#"><img src="vanshika.jpg"></a>
+			</div>
+		</div>
+
+		<div class="pad-fix"></div>
+		<div class="container container-site">
+			<div class="card">
+				<div class="card-image">
+					<img src="mountains.jpg">
+					<div class="profile-panel">
+						<div class="profile-panel-image">
+							<img src="profile.jpg">
+						</div>
+					</div>
+					<div class="floating-panel">
+						<a class="btn-floating btn-large waves-effect waves-light" style="background:rgb(1,183,255);"><i class="material-icons">supervisor_account</i></a>
+						<a class="btn-floating btn-large waves-effect waves-light" style="background:rgb(146,107,224);"><i class="material-icons">speaker_notes</i></a>
+						<a class="btn-floating btn-large waves-effect waves-light" style="background:rgb(254, 94, 58);"><i class="material-icons">settings_input_component</i></a>
+					</div>
+				</div>
+				<div class="card-content profile">
+					<div class="row">
+						<div class="col s4 btn-group">
+							<div class="row">
+								<div class="col s4"><a href="#">Timeline</a></div>								
+								<div class="col s4"><a href="#">About</a></div>								
+								<div class="col s4"><a href="#">Friends</a></div>								
+							</div>
+						</div>
+						<div class="col s4 profile-meta">
+							<h5>Sampan Verma</h5>
+							<span class="place">Phagwara, India</span>
+						</div>
+						<div class="col s4 btn-group">
+							<div class="row">
+								<div class="col s4"><a href="#">Photos</a></div>								
+								<div class="col s4"><a href="#">Videos</a></div>								
+								<div class="col s4"><a href="#">...</a></div>								
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container container-site">
+			<div class="card">
+				<div class="card-content">
+					<div class="inline-block">
+						<b>Sampan's Photo Album</b>
+					</div>
+					<div class="right btn-group-1 pad-fix-2">
+						<a class="btn btn-large orange-bright" href="#">Create Album</a>
+						<a class="btn btn-large white black-text" href="#">Add Photos</a>
+						<div class="btn-group-2">
+							<a class="btn-iconograph" href="#"><i class="material-icons">view_carousel</i></a>
+							<a class="btn-iconograph" href="#"><i class="material-icons">view_module</i></a>
+							<a class="btn-iconograph" href="#"><i class="material-icons">more_horiz</i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container container-site">
+			<div class="row">
+				<div class="col s3">
+					<div class="card card-outline">
+						<div class="card-content center">
+							<div class="pad-fix-3"></div>
+							<div>
+								<a class="btn btn-floating orange-bright waves-effect waves-light"><i class="material-icons">add</i></a>
+							</div>
+							<b>Create an album</b>
+							<div>It only takes a few minutes</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card card-post">
+						<div class="card-image">
+							<img src="images/books.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title">Home Photographs</span>
+							<small class="card-subtitle">Last added 22 hours ago</small>
+							<div class="carousel carousel-slider carousel-post-info">
+								<a class="carousel-item">
+									<b>Followers</b><br>
+									<small>pewdiepie, itsmarziepie...</small>									
+								</a>
+								<a class="carousel-item">
+									<div class="row">
+										<div class="col s4">
+											<b>Likes</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Comments</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Shares</b><br>
+											<small>28</small>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card card-post">
+						<div class="card-image">
+							<img src="images/aurora-borealis.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title">Nature</span>
+							<small class="card-subtitle">Last added 22 hours ago</small>
+							<div class="carousel carousel-slider carousel-post-info">
+								<a class="carousel-item">
+									<b>Followers</b><br>
+									<small>pewdiepie, itsmarziepie...</small>									
+								</a>
+								<a class="carousel-item">
+									<div class="row">
+										<div class="col s4">
+											<b>Likes</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Comments</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Shares</b><br>
+											<small>28</small>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card card-post">
+						<div class="card-image">
+							<img src="images/ashtray.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title">Vapes</span>
+							<small class="card-subtitle">Last added 22 hours ago</small>
+							<div class="carousel carousel-slider carousel-post-info">
+								<a class="carousel-item">
+									<b>Followers</b><br>
+									<small>pewdiepie, itsmarziepie...</small>									
+								</a>
+								<a class="carousel-item">
+									<div class="row">
+										<div class="col s4">
+											<b>Likes</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Comments</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Shares</b><br>
+											<small>28</small>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card card-post">
+						<div class="card-image">
+							<img src="images/beach.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title">Beach 2014</span>
+							<small class="card-subtitle">Last added 22 hours ago</small>
+							<div class="carousel carousel-slider carousel-post-info">
+								<a class="carousel-item">
+									<b>Followers</b><br>
+									<small>pewdiepie, itsmarziepie...</small>									
+								</a>
+								<a class="carousel-item">
+									<div class="row">
+										<div class="col s4">
+											<b>Likes</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Comments</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Shares</b><br>
+											<small>28</small>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card card-post">
+						<div class="card-image">
+							<img src="images/beach2.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title">Beach 2016</span>
+							<small class="card-subtitle">Last added 22 hours ago</small>
+							<div class="carousel carousel-slider carousel-post-info">
+								<a class="carousel-item">
+									<b>Followers</b><br>
+									<small>pewdiepie, itsmarziepie...</small>									
+								</a>
+								<a class="carousel-item">
+									<div class="row">
+										<div class="col s4">
+											<b>Likes</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Comments</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Shares</b><br>
+											<small>28</small>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card card-post">
+						<div class="card-image">
+							<img src="images/cookies.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title">Amazing Food</span>
+							<small class="card-subtitle">Last added 22 hours ago</small>
+							<div class="carousel carousel-slider carousel-post-info">
+								<a class="carousel-item">
+									<b>Followers</b><br>
+									<small>pewdiepie, itsmarziepie...</small>									
+								</a>
+								<a class="carousel-item">
+									<div class="row">
+										<div class="col s4">
+											<b>Likes</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Comments</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Shares</b><br>
+											<small>28</small>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card card-post">
+						<div class="card-image">
+							<img src="images/design.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title">Abstract</span>
+							<small class="card-subtitle">Last added 22 hours ago</small>
+							<div class="carousel carousel-slider carousel-post-info">
+								<a class="carousel-item">
+									<b>Followers</b><br>
+									<small>pewdiepie, itsmarziepie...</small>									
+								</a>
+								<a class="carousel-item">
+									<div class="row">
+										<div class="col s4">
+											<b>Likes</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Comments</b><br>
+											<small>28</small>
+										</div>
+										<div class="col s4">
+											<b>Shares</b><br>
+											<small>28</small>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
